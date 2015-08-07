@@ -1,0 +1,28 @@
+{
+  "name": "asciinemagif",
+  "version": "0.0.1",
+  "description": "asciinema render to gif images",
+  "main": "render.sh",
+  "scripts": {
+    "test": "./render.sh <URL>"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/0xgi/asciinemagif.git"
+  },
+  "keywords": [
+    "asciinema",
+    "phantomjs",
+    "imagemagick",
+    "gifsicle"
+  ],
+  "author": "Le Phu Hai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/0xgi/asciinemagif/issues"
+  },
+  "homepage": "https://github.com/0xgi/asciinemagif#readme",
+  "devDependencies": {
+    "phantomjs": "^1.9.17"
+  }
+}
